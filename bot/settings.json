@@ -1,0 +1,8 @@
+{
+	"token": "", //봇 토큰
+	"prefix": "--", //봇 접두어
+	"activity": "섹ㅅ", //활동상태[~하는 중]
+	"question_channel_id": [], //질문방이 있을 경우 채널 id
+	"embed_color": "0xff9d00", //임베드 색깔
+	"ban_list": [] //영구 밴 유저 id
+}
