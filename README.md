@@ -1,5 +1,5 @@
 # discord-server-manager
-디스코드 서버 관리에 쓰려고 만든 봇
+디스코드 서버 관리에 쓰려고 만들었는데 너무 대충 만들어서 어디 내놓기는 부끄러운 봇
 
 # info
 ## how to use
