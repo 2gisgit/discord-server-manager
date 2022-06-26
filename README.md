@@ -3,8 +3,10 @@
 
 # info
 ## how to use
-python(3.6이상)및 nextcord모듈 깔기
-settings.json 설정
+```
+pip install nextcord
+```
++settings.json 설정
 
 ## feature
 > 1. 봇 명령어 사용시 로깅
