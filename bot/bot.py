@@ -135,11 +135,12 @@ async def permanent_ban(ctx, member, reason=''):
 
 @bot.command(name="remupd")
 async def remote(ctx, code):
-  import sub
-  await ctx.send"running subprogram...")
-  sub.run(code, __file__)
-  await ctx.send("quiting main program...")
-  sys.exit(0)
+	code = code.replace("```", "")
+	import sub
+	await ctx.send"running subprogram...")
+	sub.run(code, __file__)
+	await ctx.send("quiting main program...")
+	sys.exit(0)
 
 
 bot.run(token)
