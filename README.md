@@ -4,9 +4,10 @@
 # info
 ## how to use
 ```
-pip install nextcord
+pip install nextcord, schedule
 ```
-+settings.json 설정
+> 1. settings.json 설정
+> 2. bot.py 및 schedule-manager.py 실행
 
 ## feature
 > 1. 봇 명령어 사용시 로깅
@@ -15,6 +16,6 @@ pip install nextcord
 > 4. 원격 코드 수정
 
 ## future
-> 1. 익명 건의
-> 2. 서버 화폐
+> ~~1. 익명 건의~~<br> - 22/7/1 업데이트
+> 2. 서버 화폐<br>
 > 3. 도박
