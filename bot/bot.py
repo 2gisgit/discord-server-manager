@@ -68,6 +68,7 @@ async def on_message(message):
 				with open("data.json", "w") as f:
 					json.dump(curr_data, f)
 				await channel.send(embed=embed)
+	await bot.process_commands(message)
 
 
 @bot.event
