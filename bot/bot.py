@@ -45,14 +45,13 @@ async def on_message(message):
 		if not message.author.bot:
 			channel = nextcord.utils.get(bot.get_all_channels(), name=f"{setting_jf["report_channel"]}")
 			embed = nextcord.Embed(title="REPORT", color=nextcord.Color.red())
-			embed.add_field(name=message.author.display_name, value=message.content)
-			
+			embed.add_field(name="report", value=message.content)
 
 			user_id = message.author.id
 			user = await bot.fetch_user(str(user_id))
 			
 			
-			print(user, user_id)
+			logger.info(f"{user} reported '{message.content}'")
 			with open('data.json') as f:
 				curr_data = json.load(f)
 				print(curr_data)
