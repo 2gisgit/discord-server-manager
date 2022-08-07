@@ -44,24 +44,24 @@ async def on_message(message):
 	if str(message.channel.type) == "private":
 		if not message.author.bot:
 			channel = nextcord.utils.get(bot.get_all_channels(), name=f"{setting_jf["report_channel"]}")
-			embed = nextcord.Embed(title="REPORT", color=nextcord.Color.red())
-			embed.add_field(name="report", value=message.content)
+			title = (re.compile('{}(.*){}'.format(re.escape('<'), re.escape('>')))).findall(message.content)
+			embed = nextcord.Embed(title=title, color=nextcord.Color.red())
+			embed.add_field(value="\n"+message.content)
 
 			user_id = message.author.id
 			user = await bot.fetch_user(str(user_id))
 			
 			
-			logger.info(f"{user} reported '{message.content}'")
+			logger.info(f"{user} writed post '{message.content}'")
 			with open('data.json') as f:
 				curr_data = json.load(f)
-				print(curr_data)
 				
 			
 			if str(user_id) in curr_data.values():
-				await user.send("You can only report once per day. Pls try again later.")
+				await user.send("You can only write post once per hour. Pls try again later.")
 				
 			else:
-				await user.send("The report has been completed. Thx.")
+				await user.send("The post has been completed. Thx.")
 				tag = len(curr_data) + 1
 				curr_data[str(tag)] = str(user_id)
 				with open("data.json", "w") as f:
