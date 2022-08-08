@@ -7,14 +7,14 @@ import atexit
 import sys
 import inspect
 import json
+import re
 
 setting_jf = json.loads(open("settings.json", "r", encoding="utf8").read())
 
 token = setting_jf["token"]
 
 intents = nextcord.Intents.all()
-bot = commands.Bot(command_prefix=f'{setting_jf["prefix"]}', intents=intents)
-await bot.change_presence(status=nextcord.Status.online, activity=nextcord.Game(f"{setting_jf["activity"]}"))
+bot = commands.Bot(command_prefix=setting_jf["prefix"], intents=intents)
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -41,38 +41,34 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-	if str(message.channel.type) == "private":
-		if not message.author.bot:
-			channel = nextcord.utils.get(bot.get_all_channels(), name=f"{setting_jf["report_channel"]}")
-			title = (re.compile('{}(.*){}'.format(re.escape('<'), re.escape('>')))).findall(message.content)
-			embed = nextcord.Embed(title=title, color=nextcord.Color.red())
-			embed.add_field(value="\n"+message.content)
-
-			user_id = message.author.id
-			user = await bot.fetch_user(str(user_id))
-			
-			
-			logger.info(f"{user} writed post '{message.content}'")
-			with open('data.json') as f:
-				curr_data = json.load(f)
-				
-			
-			if str(user_id) in curr_data.values():
-				await user.send("You can only write post once per hour. Pls try again later.")
-				
-			else:
-				await user.send("The post has been completed. Thx.")
-				tag = len(curr_data) + 1
-				curr_data[str(tag)] = str(user_id)
-				with open("data.json", "w") as f:
-					json.dump(curr_data, f)
-				await channel.send(embed=embed)
-	await bot.process_commands(message)
-
-
-@bot.event
-async def on_message(message):
 	try:
+		if message.guild is None and message.author != bot.user:
+			print(2)
+			if not message.author.bot:
+				print(3)
+				channel = nextcord.utils.get(bot.get_all_channels(), name=setting_jf["report_channel"])
+				title = (re.compile('{}(.*){}'.format(re.escape('<'), re.escape('>')))).findall(message.content)
+				embed = nextcord.Embed(title=title[0], description=re.sub(r'<(.*)>\n?', '', message.content), color=nextcord.Color.red())
+
+				user_id = message.author.id
+				user = await bot.fetch_user(str(user_id))
+				
+				logger.info(f"{user} writed post '{message.content}'")
+				with open('data.json') as f:
+					curr_data = json.load(f)
+					
+				
+				if str(user_id) in curr_data.values():
+					print(4)
+					await user.send("You can only write post once per hour. Pls try again later.")
+					
+				else:
+					await user.send("The post has been completed. Thx.")
+					tag = len(curr_data) + 1
+					curr_data[str(tag)] = str(user_id)
+					with open("data.json", "w") as f:
+						json.dump(curr_data, f)
+					await channel.send(embed=embed)
 		#clear messages
 		if message.content.startswith(f'{setting_jf["prefix"]}cls'):
 			if message.author.guild_permissions.manage_messages:
@@ -110,7 +106,7 @@ It says {message.content}!""", color=int(setting_jf["embed_color"], 16))
 	await bot.process_commands(message)
 
 
-@client.event
+@bot.event
 async def on_member_join(member):
 	if member.id in setting_jf["list"]:
 		member.ban(reason="permanent ban")
@@ -168,7 +164,7 @@ async def permanent_ban(ctx, member, reason=''):
 async def remote(ctx, code):
 	code = code.replace("```", "")
 	import sub
-	await ctx.send"running subprogram...")
+	await ctx.send("running subprogram...")
 	sub.run(code, __file__)
 	await ctx.send("quiting main program...")
 	sys.exit(0)
