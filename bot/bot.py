@@ -78,7 +78,6 @@ async def on_message(message):
 			else:
 				logger.info(f'{message.author.name} has used "cls" command.')
 				await message.channel.send("PermissionError (You can't use this command)")
-			await bot.process_commands(message)
 		#make a thread if server has question channel
 		elif str(message.channel.id) in setting_jf["question_channel_id"]:
 			if message.author != bot.user:
