@@ -8,6 +8,10 @@ import sys
 import inspect
 import json
 import re
+import threading
+import schedule
+import time
+
 
 setting_jf = json.loads(open("settings.json", "r", encoding="utf8").read())
 
@@ -24,6 +28,22 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s]: %(mess
 logger.addHandler(file_handler)
 
 
+def scheduler():
+	def refresh():
+		with open("data.json", "w") as f:
+			f.write("{}")
+
+	schedule.every(1).hours.do(refresh)
+
+	while True:
+		schedule.run_pending()
+		time.sleep(1)
+
+t = threading.Thread(target=scheduler)
+t.daemon = True
+t.start()
+
+
 def before_exit():
 	data = inspect.getinnerframes(sys.last_traceback, 3)[0]
 	logger.info(f"ERROR CODE {{{data.code_context}}}, ERROR LINENO {{{data.lineno}}}, ERROR INDEX {{{data.index}}}")
@@ -36,16 +56,13 @@ atexit.register(before_exit)
 async def on_ready():
 	await bot.change_presence(status=nextcord.Status.online, activity=nextcord.Game('Commands: !help'))
 	logger.info(f'logged in {bot.user}')
-	print(f"logged in {bot.user}")
 
 
 @bot.event
 async def on_message(message):
 	try:
 		if message.guild is None and message.author != bot.user:
-			print(2)
 			if not message.author.bot:
-				print(3)
 				channel = nextcord.utils.get(bot.get_all_channels(), name=setting_jf["report_channel"])
 				title = (re.compile('{}(.*){}'.format(re.escape('<'), re.escape('>')))).findall(message.content)
 				embed = nextcord.Embed(title=title[0], description=re.sub(r'<(.*)>\n?', '', message.content), color=nextcord.Color.red())
@@ -59,7 +76,6 @@ async def on_message(message):
 					
 				
 				if str(user_id) in curr_data.values():
-					print(4)
 					await user.send("You can only write post once per hour. Pls try again later.")
 					
 				else:
@@ -114,11 +130,11 @@ async def on_member_join(member):
 
 
 @bot.command(name="user")
-async def userinfo(ctx, member=None):
+async def userinfo(ctx, member: nextcord.Member = None):
 	if not member:
 		member = ctx.message.author
 	embed = nextcord.Embed(color=int(setting_jf["embed_color"], 16), title=f"Info of {member}")
-	roles = [role.mention for role in member.roles[1:]]
+	roles = [role.mention for role in member.roles]
 	embed.set_thumbnail(url=member.avatar.url)
 	embed.set_footer(text=f"{ctx.author} used the command")
 	embed.add_field(name="Name:", value=member.mention)
