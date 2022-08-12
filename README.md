@@ -7,7 +7,7 @@
 pip install nextcord, schedule
 ```
 > 1. settings.json 설정
-> 2. bot.py 및 schedule-manager.py 실행
+> 2. bot.py 실행
 
 ## feature
 > 1. 봇 명령어 사용시 로깅
