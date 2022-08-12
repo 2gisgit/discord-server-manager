@@ -1,0 +1,698 @@
+
+2022-08-08 09:28:50,517 [INFO]: ERROR CODE {['\n', '@client.event\n', 'async def on_member_join(member):\n']}, ERROR LINENO {113}, ERROR INDEX {1}
+2022-08-08 09:28:50,518 [INFO]: RAW DATA
+
+[FrameInfo(frame=<frame at 0x00000231E46B59F0, file 'C:\\WhenIMoveCom\\py\\bot\\bot.py', line 113, code <module>>, filename='C:\\WhenIMoveCom\\py\\bot\\bot.py', lineno=113, function='<module>', code_context=['\n', '@client.event\n', 'async def on_member_join(member):\n'], index=1)]
+2022-08-08 09:30:56,684 [INFO]: ERROR CODE {['\n', '@client.event\n', 'async def on_member_join(member):\n']}, ERROR LINENO {112}, ERROR INDEX {1}
+2022-08-08 09:30:56,684 [INFO]: RAW DATA
+
+[FrameInfo(frame=<frame at 0x00000291210A60C0, file 'C:\\WhenIMoveCom\\py\\bot\\bot.py', line 112, code <module>>, filename='C:\\WhenIMoveCom\\py\\bot\\bot.py', lineno=112, function='<module>', code_context=['\n', '@client.event\n', 'async def on_member_join(member):\n'], index=1)]
+2022-08-08 09:31:17,278 [INFO]: logging in using static token
+2022-08-08 09:31:18,166 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:31:18,487 [INFO]: Websocket closed with 4014, cannot reconnect.
+2022-08-08 09:31:18,488 [INFO]: Cleaning up tasks.
+2022-08-08 09:31:18,489 [INFO]: Closing the event loop.
+2022-08-08 09:31:19,220 [INFO]: ERROR CODE {['\n', '\n', 'bot.run(token)\n']}, ERROR LINENO {176}, ERROR INDEX {2}
+2022-08-08 09:31:19,220 [INFO]: RAW DATA
+
+[FrameInfo(frame=<frame at 0x000001E8DDCF3E70, file 'C:\\WhenIMoveCom\\py\\bot\\bot.py', line 176, code <module>>, filename='C:\\WhenIMoveCom\\py\\bot\\bot.py', lineno=176, function='<module>', code_context=['\n', '\n', 'bot.run(token)\n'], index=2)]
+2022-08-08 09:33:04,110 [INFO]: logging in using static token
+2022-08-08 09:33:04,918 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:33:05,220 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-qrkg",{"micros":99341,"calls":["discord-sessions-green-prd-2-82",{"micros":98144,"calls":["start_session",{"micros":83055,"calls":["discord-api-7f77759854-r4tpp",{"micros":76992,"calls":["get_user",{"micros":19340},"add_authorized_ip",{"micros":3090},"get_guilds",{"micros":10938},"private_channels",{"micros":3},"read_states",{"micros":2},"user_guild_settings",{"micros":1},"pending_payments",{"micros":2},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14137,"calls":[]}]}]}] (Session ID: 49bce8361e6399245a1a23cb59af4f0e).
+2022-08-08 09:33:07,269 [INFO]: logged in BanDal#2649
+2022-08-08 09:33:13,407 [INFO]: 2gis has used "user" command.
+2022-08-08 09:33:48,581 [INFO]: Juhyun.KK has used "ping" command.
+2022-08-08 09:35:13,308 [INFO]: logging in using static token
+2022-08-08 09:35:14,152 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:35:14,459 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-210s",{"micros":106433,"calls":["discord-sessions-green-prd-2-77",{"micros":105543,"calls":["start_session",{"micros":92951,"calls":["discord-api-7f77759854-fd9lg",{"micros":86865,"calls":["get_user",{"micros":20886},"add_authorized_ip",{"micros":7351},"get_guilds",{"micros":13131},"private_channels",{"micros":4},"read_states",{"micros":2},"user_guild_settings",{"micros":1},"pending_payments",{"micros":1},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 8013b7e727ffcb9065ffbf5ae84c1c55).
+2022-08-08 09:35:16,530 [INFO]: logged in BanDal#2649
+2022-08-08 09:45:28,387 [INFO]: logging in using static token
+2022-08-08 09:45:29,179 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:45:29,478 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-mwdn",{"micros":89641,"calls":["discord-sessions-green-prd-2-12",{"micros":87989,"calls":["start_session",{"micros":79883,"calls":["discord-api-7f77759854-nlscv",{"micros":74800,"calls":["get_user",{"micros":11763},"add_authorized_ip",{"micros":3866},"get_guilds",{"micros":17058},"private_channels",{"micros":2},"read_states",{"micros":1},"user_guild_settings",{"micros":1},"pending_payments",{"micros":0},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: cd1333346b603e900e4c88d65c79c15d).
+2022-08-08 09:45:31,574 [INFO]: logged in BanDal#2649
+2022-08-08 09:55:16,525 [INFO]: logging in using static token
+2022-08-08 09:55:17,322 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:55:17,593 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-8r4w",{"micros":67555,"calls":["discord-sessions-green-prd-2-161",{"micros":61247,"calls":["start_session",{"micros":31669,"calls":["discord-api-7f77759854-785hr",{"micros":27983,"calls":["get_user",{"micros":6727},"add_authorized_ip",{"micros":2058},"get_guilds",{"micros":3382},"private_channels",{"micros":3},"read_states",{"micros":1},"user_guild_settings",{"micros":1},"pending_payments",{"micros":1},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":22095,"calls":[]}]}]}] (Session ID: cf2d680c66531a57bfb6404a95ff8d43).
+2022-08-08 09:55:19,656 [INFO]: logged in BanDal#2649
+2022-08-08 09:56:05,109 [INFO]: 2gis has failed to make a thread in help channel.
+2022-08-08 09:58:44,958 [INFO]: logging in using static token
+2022-08-08 09:58:45,774 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:58:46,057 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-1zgh",{"micros":78164,"calls":["discord-sessions-green-prd-2-46",{"micros":72066,"calls":["start_session",{"micros":58866,"calls":["discord-api-7f77759854-vccw6",{"micros":54077,"calls":["get_user",{"micros":14462},"add_authorized_ip",{"micros":3497},"get_guilds",{"micros":3935},"private_channels",{"micros":4},"read_states",{"micros":2},"user_guild_settings",{"micros":1},"pending_payments",{"micros":1},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9800,"calls":[]}]}]}] (Session ID: bfe2213fd0c0fd60f1a16e8aec22f9b1).
+2022-08-08 09:58:48,217 [INFO]: logged in BanDal#2649
+2022-08-08 09:59:14,913 [INFO]: logging in using static token
+2022-08-08 09:59:15,611 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 09:59:15,961 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-lqv6",{"micros":149410,"calls":["discord-sessions-green-prd-2-172",{"micros":148277,"calls":["start_session",{"micros":76611,"calls":["discord-api-7f77759854-8j2xj",{"micros":71020,"calls":["get_user",{"micros":11812},"add_authorized_ip",{"micros":1702},"get_guilds",{"micros":10386},"private_channels",{"micros":3},"read_states",{"micros":1},"user_guild_settings",{"micros":1},"pending_payments",{"micros":2},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 767e779adfc8022af6425b8ed2c7f790).
+2022-08-08 09:59:18,004 [INFO]: logged in BanDal#2649
+2022-08-08 10:01:21,632 [INFO]: logging in using static token
+2022-08-08 10:01:22,369 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 10:01:22,689 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-kv58",{"micros":115417,"calls":["discord-sessions-green-prd-2-149",{"micros":114347,"calls":["start_session",{"micros":48759,"calls":["discord-api-7f77759854-tlcls",{"micros":44326,"calls":["get_user",{"micros":8976},"add_authorized_ip",{"micros":1539},"get_guilds",{"micros":8573},"private_channels",{"micros":3},"read_states",{"micros":2},"user_guild_settings",{"micros":1},"pending_payments",{"micros":2},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: b310aed78dd559d31c84f2fcd71798b0).
+2022-08-08 10:01:24,739 [INFO]: logged in BanDal#2649
+2022-08-08 10:01:30,406 [INFO]: 2gis#8389 writed post '<제목>
+테스트'
+2022-08-08 10:03:52,426 [INFO]: logging in using static token
+2022-08-08 10:03:53,192 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 10:03:53,479 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-jtww",{"micros":83954,"calls":["discord-sessions-green-prd-2-73",{"micros":82967,"calls":["start_session",{"micros":41995,"calls":["discord-api-7f77759854-r7ctz",{"micros":37316,"calls":["get_user",{"micros":15996},"add_authorized_ip",{"micros":1285},"get_guilds",{"micros":2990},"private_channels",{"micros":4},"read_states",{"micros":1},"user_guild_settings",{"micros":0},"pending_payments",{"micros":1},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":18496,"calls":[]}]}]}] (Session ID: 4d16af737bcd1471a7f17cbd574289c3).
+2022-08-08 10:03:55,527 [INFO]: logged in BanDal#2649
+2022-08-08 10:04:01,085 [INFO]: 2gis#8389 writed post '<제목>
+테스트'
+2022-08-08 10:04:26,565 [INFO]: 2gis#8389 writed post '<제목>
+테스트'
+2022-08-08 10:05:44,758 [INFO]: 2gis#8389 writed post '<제목>
+테스트
+```
+<믕>
+ㅇㄹㅇ
+```'
+2022-08-08 10:06:09,802 [INFO]: 2gis#8389 writed post '<제목>
+테스트
+```
+<믕>
+ㅇㄹㅇ
+```'
+2022-08-08 10:09:15,073 [INFO]: logging in using static token
+2022-08-08 10:09:15,807 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-08 10:09:16,122 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-zpkq",{"micros":110083,"calls":["discord-sessions-green-prd-2-65",{"micros":108539,"calls":["start_session",{"micros":49718,"calls":["discord-api-7f77759854-s5tlr",{"micros":41534,"calls":["get_user",{"micros":12931},"add_authorized_ip",{"micros":2397},"get_guilds",{"micros":7774},"private_channels",{"micros":2},"read_states",{"micros":1},"user_guild_settings",{"micros":1},"pending_payments",{"micros":1},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 56eb861332c38a7863662e2675f47cca).
+2022-08-08 10:09:18,214 [INFO]: logged in BanDal#2649
+2022-08-08 10:09:18,572 [INFO]: 2gis#8389 writed post '<제목>테스트'
+2022-08-10 10:32:53,418 [INFO]: logging in using static token
+2022-08-10 10:32:55,053 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 10:32:55,342 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-r13x",{"micros":91852,"calls":["discord-sessions-green-prd-2-37",{"micros":90913,"calls":["start_session",{"micros":79748,"calls":["discord-api-7dd57df7cf-tfw72",{"micros":67477,"calls":["get_user",{"micros":13154},"add_authorized_ip",{"micros":10048},"get_guilds",{"micros":3871},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 7672d3af23e3e97b8881aa0fd92a06c1).
+2022-08-10 10:32:57,372 [INFO]: logged in vidar#7490
+2022-08-10 10:33:11,301 [INFO]: 2gis has used "user" command.
+2022-08-10 10:41:07,942 [INFO]: ERROR CODE {['@bot.command(name="user")\n', 'async def userinfo(self, ctx, *, member: discord.Member = None):\n', "\t'''Get information about a member.'''\n"]}, ERROR LINENO {117}, ERROR INDEX {1}
+2022-08-10 10:41:07,943 [INFO]: RAW DATA
+
+[FrameInfo(frame=<frame at 0x00000210ABB55A10, file 'C:\\WhenIMoveCom\\py\\bot\\bot.py', line 117, code <module>>, filename='C:\\WhenIMoveCom\\py\\bot\\bot.py', lineno=117, function='<module>', code_context=['@bot.command(name="user")\n', 'async def userinfo(self, ctx, *, member: discord.Member = None):\n', "\t'''Get information about a member.'''\n"], index=1)]
+2022-08-10 10:41:30,696 [INFO]: logging in using static token
+2022-08-10 10:41:31,445 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 10:41:31,727 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-swsc",{"micros":82459,"calls":["discord-sessions-green-prd-2-20",{"micros":79856,"calls":["start_session",{"micros":39396,"calls":["discord-api-7dd57df7cf-rng45",{"micros":35585,"calls":["get_user",{"micros":11176},"add_authorized_ip",{"micros":3253},"get_guilds",{"micros":1630},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1456,"calls":[]}]}]}] (Session ID: 8faea3e1180866c334ec015e264c5385).
+2022-08-10 10:41:33,739 [INFO]: logged in vidar#7490
+2022-08-10 10:42:03,325 [INFO]: logging in using static token
+2022-08-10 10:42:04,437 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 10:42:04,735 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-s0gl",{"micros":79630,"calls":["discord-sessions-green-prd-2-193",{"micros":78699,"calls":["start_session",{"micros":45100,"calls":["discord-api-7dd57df7cf-kjsvx",{"micros":40428,"calls":["get_user",{"micros":11222},"add_authorized_ip",{"micros":2558},"get_guilds",{"micros":1769},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 68a29d30ed610dc1f47ca30a3777aec4).
+2022-08-10 10:42:06,772 [INFO]: logged in vidar#7490
+2022-08-10 10:42:56,937 [INFO]: logging in using static token
+2022-08-10 10:42:57,815 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 10:42:58,103 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-38cc",{"micros":92679,"calls":["discord-sessions-green-prd-2-189",{"micros":91725,"calls":["start_session",{"micros":59077,"calls":["discord-api-7dd57df7cf-bscrr",{"micros":55054,"calls":["get_user",{"micros":9512},"add_authorized_ip",{"micros":4346},"get_guilds",{"micros":9859},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19740,"calls":[]}]}]}] (Session ID: 58ff00daf1eea278e3a35e171fd4344e).
+2022-08-10 10:43:00,111 [INFO]: logged in vidar#7490
+2022-08-10 10:43:52,534 [INFO]: 2gis has used "user" command.
+2022-08-10 10:44:59,723 [INFO]: logging in using static token
+2022-08-10 10:45:00,893 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 10:45:01,169 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-qjs7",{"micros":83363,"calls":["discord-sessions-green-prd-2-5",{"micros":82384,"calls":["start_session",{"micros":54198,"calls":["discord-api-7dd57df7cf-r2992",{"micros":48278,"calls":["get_user",{"micros":15381},"add_authorized_ip",{"micros":4837},"get_guilds",{"micros":3689},"send_scheduled_deleteion_message",{"micros":13},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2477,"calls":[]}]}]}] (Session ID: 388af2423b72121aee5fa8e4cb7290bc).
+2022-08-10 10:45:03,206 [INFO]: logged in vidar#7490
+2022-08-10 10:45:05,044 [INFO]: 2gis has used "user" command.
+2022-08-10 13:39:00,107 [INFO]: logging in using static token
+2022-08-10 13:39:00,922 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 13:39:01,249 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-rl2p",{"micros":127996,"calls":["discord-sessions-green-prd-2-185",{"micros":123757,"calls":["start_session",{"micros":72462,"calls":["discord-api-7dd57df7cf-gh7hs",{"micros":64536,"calls":["get_user",{"micros":23196},"add_authorized_ip",{"micros":2340},"get_guilds",{"micros":3798},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":36883,"calls":[]}]}]}] (Session ID: 78410f7437a6662ea8aaf62e399d4671).
+2022-08-10 13:39:03,254 [INFO]: logged in vidar#7490
+2022-08-10 13:40:28,543 [INFO]: logging in using static token
+2022-08-10 13:40:29,351 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 13:40:29,741 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-v6np",{"micros":191195,"calls":["discord-sessions-green-prd-2-194",{"micros":188544,"calls":["start_session",{"micros":104483,"calls":["discord-api-7dd57df7cf-gnpr9",{"micros":94513,"calls":["get_user",{"micros":18977},"add_authorized_ip",{"micros":16922},"get_guilds",{"micros":4630},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":36207,"calls":[]}]}]}] (Session ID: 2807ee700bbf83b6d7e14c4a2a53dcd7).
+2022-08-10 13:40:31,761 [INFO]: logged in vidar#7490
+2022-08-10 13:43:04,400 [INFO]: logging in using static token
+2022-08-10 13:43:05,295 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 13:43:05,732 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-3ls9",{"micros":80986,"calls":["discord-sessions-green-prd-2-101",{"micros":79945,"calls":["start_session",{"micros":58315,"calls":["discord-api-7dd57df7cf-z2wvj",{"micros":50225,"calls":["get_user",{"micros":16376},"add_authorized_ip",{"micros":2870},"get_guilds",{"micros":2401},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":20602,"calls":[]}]}]}] (Session ID: a155c3527b90a893a0385077b5d55481).
+2022-08-10 13:43:07,751 [INFO]: logged in vidar#7490
+2022-08-10 13:43:09,358 [INFO]: 2gis has used "user" command.
+2022-08-10 13:56:40,172 [INFO]: ERROR CODE {['@bot.command(name="user")\n', 'async def userinfo(self, ctx, *, user: discord.Member = None):\n', '\t"""Show information about a user.\n']}, ERROR LINENO {117}, ERROR INDEX {1}
+2022-08-10 13:56:40,172 [INFO]: RAW DATA
+
+[FrameInfo(frame=<frame at 0x000002F612493610, file 'C:\\WhenIMoveCom\\py\\bot\\bot.py', line 117, code <module>>, filename='C:\\WhenIMoveCom\\py\\bot\\bot.py', lineno=117, function='<module>', code_context=['@bot.command(name="user")\n', 'async def userinfo(self, ctx, *, user: discord.Member = None):\n', '\t"""Show information about a user.\n'], index=1)]
+2022-08-10 13:56:52,285 [INFO]: logging in using static token
+2022-08-10 13:56:53,108 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 13:56:53,412 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-z9dr",{"micros":109370,"calls":["discord-sessions-green-prd-2-89",{"micros":108199,"calls":["start_session",{"micros":71781,"calls":["discord-api-7dd57df7cf-mnslp",{"micros":66394,"calls":["get_user",{"micros":14114},"add_authorized_ip",{"micros":11449},"get_guilds",{"micros":3330},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 430f02466bb8c9f07e45ce55737a6a5f).
+2022-08-10 13:56:55,439 [INFO]: logged in vidar#7490
+2022-08-10 14:01:58,526 [INFO]: ERROR CODE {['@bot.command(name="user")\n', 'async def userinfo(ctx, member: discord.User = None):\n', '\tif not member:\n']}, ERROR LINENO {117}, ERROR INDEX {1}
+2022-08-10 14:01:58,526 [INFO]: RAW DATA
+
+[FrameInfo(frame=<frame at 0x000002A027825950, file 'C:\\WhenIMoveCom\\py\\bot\\bot.py', line 117, code <module>>, filename='C:\\WhenIMoveCom\\py\\bot\\bot.py', lineno=117, function='<module>', code_context=['@bot.command(name="user")\n', 'async def userinfo(ctx, member: discord.User = None):\n', '\tif not member:\n'], index=1)]
+2022-08-10 14:02:14,020 [INFO]: logging in using static token
+2022-08-10 14:02:14,944 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:02:15,227 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-g836",{"micros":85753,"calls":["discord-sessions-green-prd-2-157",{"micros":84858,"calls":["start_session",{"micros":44272,"calls":["discord-api-7dd57df7cf-t49rs",{"micros":39425,"calls":["get_user",{"micros":9909},"add_authorized_ip",{"micros":2488},"get_guilds",{"micros":2060},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":753}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: e2f6ffcb051a0c8910355388cd921423).
+2022-08-10 14:02:17,244 [INFO]: logged in vidar#7490
+2022-08-10 14:02:18,444 [INFO]: 2gis has used "user" command.
+2022-08-10 14:03:59,374 [INFO]: logging in using static token
+2022-08-10 14:04:00,495 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:04:00,784 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-088n",{"micros":81375,"calls":["discord-sessions-green-prd-2-187",{"micros":80479,"calls":["start_session",{"micros":34363,"calls":["discord-api-7dd57df7cf-x4skr",{"micros":31142,"calls":["get_user",{"micros":10324},"add_authorized_ip",{"micros":2447},"get_guilds",{"micros":1645},"send_scheduled_deleteion_message",{"micros":9},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44987,"calls":[]}]}]}] (Session ID: 5c6d6fd1e207e1ad24526574b60051c7).
+2022-08-10 14:04:02,806 [INFO]: logged in vidar#7490
+2022-08-10 14:04:03,782 [INFO]: 2gis has used "user" command.
+2022-08-10 14:04:54,057 [INFO]: logging in using static token
+2022-08-10 14:04:54,799 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:04:55,048 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-4khg",{"micros":54686,"calls":["discord-sessions-green-prd-2-96",{"micros":53654,"calls":["start_session",{"micros":50330,"calls":["discord-api-7dd57df7cf-8qb4c",{"micros":45754,"calls":["get_user",{"micros":11625},"add_authorized_ip",{"micros":4671},"get_guilds",{"micros":2256},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":3}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: cc07d942f9c0cde8d639dcfb89e85698).
+2022-08-10 14:04:57,058 [INFO]: logged in vidar#7490
+2022-08-10 14:04:57,815 [INFO]: 2gis has used "user" command.
+2022-08-10 14:05:57,130 [INFO]: logging in using static token
+2022-08-10 14:05:57,929 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:05:58,273 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-ppf6",{"micros":150247,"calls":["discord-sessions-green-prd-2-173",{"micros":138804,"calls":["start_session",{"micros":66272,"calls":["discord-api-7dd57df7cf-4vfx9",{"micros":62772,"calls":["get_user",{"micros":16842},"add_authorized_ip",{"micros":6027},"get_guilds",{"micros":6664},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 589375b77295719aa1c6b8f6aafc319b).
+2022-08-10 14:06:00,296 [INFO]: logged in vidar#7490
+2022-08-10 14:06:02,009 [INFO]: 2gis has used "user" command.
+2022-08-10 14:13:22,347 [INFO]: logging in using static token
+2022-08-10 14:13:23,146 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:13:24,050 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-20pg",{"micros":710718,"calls":["discord-sessions-green-prd-2-99",{"micros":709892,"calls":["start_session",{"micros":650437,"calls":["discord-api-7dd57df7cf-djwzx",{"micros":645163,"calls":["get_user",{"micros":26925},"add_authorized_ip",{"micros":5981},"get_guilds",{"micros":580200},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 76f9a0bedfaadf22ab4d7c62add8d74f).
+2022-08-10 14:13:26,084 [INFO]: logged in vidar#7490
+2022-08-10 14:13:28,305 [INFO]: 2gis has used "user" command.
+2022-08-10 14:13:28,316 [INFO]: 2gis has used "user" command.
+2022-08-10 14:14:12,864 [INFO]: logging in using static token
+2022-08-10 14:14:13,822 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:14:14,092 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-bc4g",{"micros":76264,"calls":["discord-sessions-green-prd-2-127",{"micros":75304,"calls":["start_session",{"micros":43798,"calls":["discord-api-7dd57df7cf-xdw6z",{"micros":38763,"calls":["get_user",{"micros":11973},"add_authorized_ip",{"micros":2633},"get_guilds",{"micros":1852},"send_scheduled_deleteion_message",{"micros":13},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":29049,"calls":[]}]}]}] (Session ID: b4fd20448acf912f254ae3b1f1e154be).
+2022-08-10 14:14:16,107 [INFO]: logged in vidar#7490
+2022-08-10 14:14:17,026 [INFO]: 2gis has used "user" command.
+2022-08-10 14:14:17,040 [INFO]: 2gis has used "user" command.
+2022-08-10 14:14:52,264 [INFO]: logging in using static token
+2022-08-10 14:14:53,046 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:14:53,389 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-xbzr",{"micros":143732,"calls":["discord-sessions-green-prd-2-54",{"micros":140462,"calls":["start_session",{"micros":50169,"calls":["discord-api-7dd57df7cf-4gzrl",{"micros":45013,"calls":["get_user",{"micros":14466},"add_authorized_ip",{"micros":5250},"get_guilds",{"micros":3598},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":10,"calls":[]},"presence_connect",{"micros":63605,"calls":[]}]}]}] (Session ID: 69c3f5bdb7b0217919b0d5486d90d7d6).
+2022-08-10 14:14:55,405 [INFO]: logged in vidar#7490
+2022-08-10 14:14:56,990 [INFO]: 2gis has used "user" command.
+2022-08-10 14:15:40,433 [INFO]: logging in using static token
+2022-08-10 14:15:41,181 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:15:41,510 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-3v01",{"micros":129769,"calls":["discord-sessions-green-prd-2-120",{"micros":125224,"calls":["start_session",{"micros":101330,"calls":["discord-api-7dd57df7cf-2kcjq",{"micros":96120,"calls":["get_user",{"micros":15499},"add_authorized_ip",{"micros":3576},"get_guilds",{"micros":7738},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 1288eb19c1b1a662ceddc147f9160518).
+2022-08-10 14:15:43,531 [INFO]: logged in vidar#7490
+2022-08-10 14:15:44,796 [INFO]: 2gis has used "user" command.
+2022-08-10 14:16:16,019 [INFO]: logging in using static token
+2022-08-10 14:16:16,742 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:16:17,006 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-w3wz",{"micros":63967,"calls":["discord-sessions-green-prd-2-124",{"micros":63101,"calls":["start_session",{"micros":39522,"calls":["discord-api-7dd57df7cf-qwzzb",{"micros":34902,"calls":["get_user",{"micros":7924},"add_authorized_ip",{"micros":3285},"get_guilds",{"micros":2009},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8895,"calls":[]}]}]}] (Session ID: 75e79bf0e59eda3d87e1f96f88083950).
+2022-08-10 14:16:19,030 [INFO]: logged in vidar#7490
+2022-08-10 14:16:19,904 [INFO]: 2gis has used "user" command.
+2022-08-10 14:16:37,955 [INFO]: logging in using static token
+2022-08-10 14:16:38,705 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:16:38,995 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-lt4r",{"micros":94511,"calls":["discord-sessions-green-prd-2-103",{"micros":93648,"calls":["start_session",{"micros":73626,"calls":["discord-api-7dd57df7cf-9nzlh",{"micros":68813,"calls":["get_user",{"micros":15446},"add_authorized_ip",{"micros":8471},"get_guilds",{"micros":7634},"send_scheduled_deleteion_message",{"micros":8},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: fad87cbd05ee1d29f80ee11a99fa01da).
+2022-08-10 14:16:41,007 [INFO]: logged in vidar#7490
+2022-08-10 14:16:42,792 [INFO]: 2gis has used "user" command.
+2022-08-10 14:16:57,306 [INFO]: logging in using static token
+2022-08-10 14:16:58,165 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:16:58,422 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-2zqr",{"micros":60265,"calls":["discord-sessions-green-prd-2-122",{"micros":59355,"calls":["start_session",{"micros":44429,"calls":["discord-api-7dd57df7cf-72cc6",{"micros":41435,"calls":["get_user",{"micros":10202},"add_authorized_ip",{"micros":4376},"get_guilds",{"micros":1492},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: c03e9a0a7f9412e5eb96156cb21d012b).
+2022-08-10 14:17:00,432 [INFO]: logged in vidar#7490
+2022-08-10 14:17:07,111 [INFO]: 2gis has used "user" command.
+2022-08-10 14:17:22,446 [INFO]: logging in using static token
+2022-08-10 14:17:23,297 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:17:23,549 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-7szh",{"micros":51895,"calls":["discord-sessions-green-prd-2-199",{"micros":47131,"calls":["start_session",{"micros":38397,"calls":["discord-api-7dd57df7cf-2969l",{"micros":34996,"calls":["get_user",{"micros":10939},"add_authorized_ip",{"micros":2423},"get_guilds",{"micros":1392},"send_scheduled_deleteion_message",{"micros":9},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7576,"calls":[]}]}]}] (Session ID: f79414b6a9064eb5fd8c8748eb2ed41f).
+2022-08-10 14:17:25,569 [INFO]: logged in vidar#7490
+2022-08-10 14:17:26,882 [INFO]: 2gis has used "user" command.
+2022-08-10 14:17:43,191 [INFO]: logging in using static token
+2022-08-10 14:17:43,999 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:17:44,342 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-0qwz",{"micros":147653,"calls":["discord-sessions-green-prd-2-154",{"micros":146701,"calls":["start_session",{"micros":74096,"calls":["discord-api-7dd57df7cf-jlp29",{"micros":71079,"calls":["get_user",{"micros":12804},"add_authorized_ip",{"micros":5078},"get_guilds",{"micros":2516},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":32467,"calls":[]}]}]}] (Session ID: a76be7f3cd1bd52d793f7cf74e3acdc9).
+2022-08-10 14:17:46,355 [INFO]: logged in vidar#7490
+2022-08-10 14:17:47,708 [INFO]: 2gis has used "user" command.
+2022-08-10 14:18:12,104 [INFO]: logging in using static token
+2022-08-10 14:18:12,848 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:18:13,132 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-z2z1",{"micros":83577,"calls":["discord-sessions-green-prd-2-96",{"micros":82677,"calls":["start_session",{"micros":42816,"calls":["discord-api-7dd57df7cf-49wl6",{"micros":38776,"calls":["get_user",{"micros":11685},"add_authorized_ip",{"micros":4268},"get_guilds",{"micros":2884},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":24215,"calls":[]}]}]}] (Session ID: e30648e54a6cc17ee32f157c981d7f87).
+2022-08-10 14:18:15,152 [INFO]: logged in vidar#7490
+2022-08-10 14:18:16,226 [INFO]: 2gis has used "user" command.
+2022-08-10 14:18:32,424 [INFO]: logging in using static token
+2022-08-10 14:18:33,163 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:18:33,461 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-pm9h",{"micros":98349,"calls":["discord-sessions-green-prd-2-41",{"micros":97412,"calls":["start_session",{"micros":50840,"calls":["discord-api-7dd57df7cf-cqvvs",{"micros":45689,"calls":["get_user",{"micros":15289},"add_authorized_ip",{"micros":5344},"get_guilds",{"micros":2342},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":12725,"calls":[]}]}]}] (Session ID: e7b2aeefac225662f07f2431ab45b6f4).
+2022-08-10 14:18:35,476 [INFO]: logged in vidar#7490
+2022-08-10 14:18:36,492 [INFO]: 2gis has used "user" command.
+2022-08-10 14:19:44,786 [INFO]: logging in using static token
+2022-08-10 14:19:45,878 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:19:46,265 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-pnl7",{"micros":186720,"calls":["discord-sessions-green-prd-2-200",{"micros":185664,"calls":["start_session",{"micros":142770,"calls":["discord-api-7dd57df7cf-prbrx",{"micros":138402,"calls":["get_user",{"micros":10026},"add_authorized_ip",{"micros":12614},"get_guilds",{"micros":5221},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":32064,"calls":[]}]}]}] (Session ID: 3826c0fbeda38e2ed31cb3f51269cb09).
+2022-08-10 14:19:48,297 [INFO]: logged in vidar#7490
+2022-08-10 14:19:49,507 [INFO]: 2gis has used "user" command.
+2022-08-10 14:20:24,200 [INFO]: logging in using static token
+2022-08-10 14:20:25,086 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:20:25,371 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-20pg",{"micros":91003,"calls":["discord-sessions-green-prd-2-144",{"micros":89861,"calls":["start_session",{"micros":47060,"calls":["discord-api-7dd57df7cf-w4r2f",{"micros":43548,"calls":["get_user",{"micros":9430},"add_authorized_ip",{"micros":2050},"get_guilds",{"micros":2550},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 92792c270cc487211795bd773367cf61).
+2022-08-10 14:20:27,385 [INFO]: logged in vidar#7490
+2022-08-10 14:21:06,837 [INFO]: logging in using static token
+2022-08-10 14:21:07,553 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:21:07,866 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-4cjd",{"micros":90730,"calls":["discord-sessions-green-prd-2-87",{"micros":89867,"calls":["start_session",{"micros":78916,"calls":["discord-api-7dd57df7cf-c9n2w",{"micros":73361,"calls":["get_user",{"micros":19134},"add_authorized_ip",{"micros":7672},"get_guilds",{"micros":4143},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 70cec31b0ee7980a79e6c698283d7f9a).
+2022-08-10 14:21:09,888 [INFO]: logged in vidar#7490
+2022-08-10 14:21:42,297 [INFO]: logging in using static token
+2022-08-10 14:21:43,108 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:21:43,353 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-16xf",{"micros":47920,"calls":["discord-sessions-green-prd-2-76",{"micros":46758,"calls":["start_session",{"micros":43860,"calls":["discord-api-7dd57df7cf-nnvml",{"micros":38695,"calls":["get_user",{"micros":7695},"add_authorized_ip",{"micros":3343},"get_guilds",{"micros":2040},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":1339}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1790,"calls":[]}]}]}] (Session ID: 583d42157fc5109b6d7bfa2ae5b09339).
+2022-08-10 14:21:45,378 [INFO]: logged in vidar#7490
+2022-08-10 14:21:46,363 [INFO]: 2gis has used "user" command.
+2022-08-10 14:52:38,353 [INFO]: Timed out receiving packet. Attempting a reconnect.
+2022-08-10 14:52:38,354 [INFO]: Got a request to RESUME the websocket.
+2022-08-10 14:52:38,358 [ERROR]: Attempting a reconnect in 1.69s
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 861, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 641, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\gateway.py", line 355, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\http.py", line 2215, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\http.py", line 295, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2022-08-10 14:52:40,288 [ERROR]: Attempting a reconnect in 3.02s
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 861, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 641, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\gateway.py", line 355, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\http.py", line 2215, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\http.py", line 295, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2022-08-10 14:52:43,812 [ERROR]: Attempting a reconnect in 1.59s
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 861, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 641, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 479, in wait_for
+    return fut.result()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\gateway.py", line 355, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\http.py", line 2215, in get_gateway
+    data = await self.request(Route("GET", "/gateway"))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\http.py", line 295, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discord.com:443 ssl:default [getaddrinfo failed]
+2022-08-10 14:52:47,188 [INFO]: Shard ID None has sent the RESUME payload.
+2022-08-10 14:52:47,383 [INFO]: Shard ID None session has been invalidated.
+2022-08-10 14:52:47,583 [INFO]: Got a request to IDENTIFY the websocket.
+2022-08-10 14:52:53,163 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:52:53,418 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-q83q",{"micros":49874,"calls":["discord-sessions-green-prd-2-119",{"micros":49092,"calls":["start_session",{"micros":35566,"calls":["discord-api-7dd57df7cf-d4r9r",{"micros":31373,"calls":["get_user",{"micros":7771},"add_authorized_ip",{"micros":1977},"get_guilds",{"micros":1850},"send_scheduled_deleteion_message",{"micros":16},"guild_join_requests",{"micros":12}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":12401,"calls":[]}]}]}] (Session ID: 6bc376cd2b903a8d33876a29329c4dc1).
+2022-08-10 14:52:55,434 [INFO]: logged in vidar#7490
+2022-08-10 14:55:31,837 [INFO]: logging in using static token
+2022-08-10 14:55:32,805 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:55:33,230 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-f9dv",{"micros":210045,"calls":["discord-sessions-green-prd-2-13",{"micros":208608,"calls":["start_session",{"micros":138551,"calls":["discord-api-7dd57df7cf-n8kbt",{"micros":131636,"calls":["get_user",{"micros":11341},"add_authorized_ip",{"micros":17183},"get_guilds",{"micros":7210},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":59916,"calls":[]}]}]}] (Session ID: a72b2d72e4774941ccd9232502a8065e).
+2022-08-10 14:55:35,242 [INFO]: logged in vidar#7490
+2022-08-10 14:56:37,308 [INFO]: 2gis#8389 writed post '<테스트>테스트'
+2022-08-10 14:56:37,857 [INFO]: 2gis has failed to make a thread in help channel.
+2022-08-10 14:58:16,165 [INFO]: logging in using static token
+2022-08-10 14:58:16,957 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 14:58:17,219 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-pm9h",{"micros":66560,"calls":["discord-sessions-green-prd-2-25",{"micros":65675,"calls":["start_session",{"micros":44061,"calls":["discord-api-7dd57df7cf-h725z",{"micros":39420,"calls":["get_user",{"micros":9677},"add_authorized_ip",{"micros":5158},"get_guilds",{"micros":1815},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":20870,"calls":[]}]}]}] (Session ID: 8da82a33aadc56455905d38492dc8dd2).
+2022-08-10 14:58:19,217 [INFO]: logged in vidar#7490
+2022-08-10 14:58:25,844 [INFO]: 2gis#8389 writed post '<테스트>
+테스트'
+2022-08-10 15:14:25,139 [WARNING]: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2022-08-10 15:14:25,140 [INFO]: Timed out receiving packet. Attempting a reconnect.
+2022-08-10 15:14:25,140 [INFO]: Got a request to RESUME the websocket.
+2022-08-10 15:14:25,670 [INFO]: Shard ID None has sent the RESUME payload.
+2022-08-10 15:14:25,885 [INFO]: Shard ID None session has been invalidated.
+2022-08-10 15:14:26,082 [INFO]: Got a request to IDENTIFY the websocket.
+2022-08-10 15:14:31,573 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 15:14:31,858 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-168j",{"micros":87105,"calls":["discord-sessions-green-prd-2-134",{"micros":86405,"calls":["start_session",{"micros":37929,"calls":["discord-api-7dd57df7cf-jlpq8",{"micros":33646,"calls":["get_user",{"micros":8781},"add_authorized_ip",{"micros":2114},"get_guilds",{"micros":1496},"send_scheduled_deleteion_message",{"micros":13},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 5f370e927c5fd7320fc256bfb86eb1e1).
+2022-08-10 15:14:33,863 [INFO]: logged in vidar#7490
+2022-08-10 15:14:46,176 [INFO]: 2gis#8389 writed post '<테스트>
+테스트'
+2022-08-10 15:15:23,437 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:15:27,210 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:18:47,897 [INFO]: logging in using static token
+2022-08-10 15:18:48,679 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 15:18:48,956 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-210s",{"micros":77838,"calls":["discord-sessions-green-prd-2-128",{"micros":76966,"calls":["start_session",{"micros":37170,"calls":["discord-api-7dd57df7cf-95v6g",{"micros":32964,"calls":["get_user",{"micros":9152},"add_authorized_ip",{"micros":3471},"get_guilds",{"micros":1621},"send_scheduled_deleteion_message",{"micros":9},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19944,"calls":[]}]}]}] (Session ID: 3a8dc7ca3c62780b6809d4aa04acaa43).
+2022-08-10 15:18:50,965 [INFO]: logged in vidar#7490
+2022-08-10 15:18:57,546 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:19:58,132 [INFO]: logging in using static token
+2022-08-10 15:19:59,069 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 15:19:59,461 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-j1nb",{"micros":198459,"calls":["discord-sessions-green-prd-2-10",{"micros":183337,"calls":["start_session",{"micros":60832,"calls":["discord-api-7dd57df7cf-mm7xk",{"micros":51900,"calls":["get_user",{"micros":14915},"add_authorized_ip",{"micros":3722},"get_guilds",{"micros":4138},"send_scheduled_deleteion_message",{"micros":7},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: ae8e194c2e4fba6954dd35e788fc9fb1).
+2022-08-10 15:20:01,480 [INFO]: logged in vidar#7490
+2022-08-10 15:20:15,873 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:20:18,179 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:20:19,940 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:25:47,899 [INFO]: logging in using static token
+2022-08-10 15:25:48,780 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 15:25:49,080 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-g8m2",{"micros":106531,"calls":["discord-sessions-green-prd-2-103",{"micros":105807,"calls":["start_session",{"micros":42363,"calls":["discord-api-7dd57df7cf-tf7wj",{"micros":38236,"calls":["get_user",{"micros":7527},"add_authorized_ip",{"micros":4484},"get_guilds",{"micros":2276},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: a169bdbd532fe4cd12cb152c3a051c9d).
+2022-08-10 15:25:51,107 [INFO]: logged in vidar#7490
+2022-08-10 15:25:54,424 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:25:56,608 [INFO]: 2gis#8389 writed post '<봇 점검중>
+포럼 확인중'
+2022-08-10 15:26:15,866 [INFO]: 2gis#8389 writed post '<봇 점검끝>
+포럼 확인 끝!'
+2022-08-10 15:28:12,315 [INFO]: logging in using static token
+2022-08-10 15:28:13,183 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 15:28:13,492 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-c6ht",{"micros":112464,"calls":["discord-sessions-green-prd-2-160",{"micros":111539,"calls":["start_session",{"micros":64152,"calls":["discord-api-7dd57df7cf-6x4lt",{"micros":59366,"calls":["get_user",{"micros":17942},"add_authorized_ip",{"micros":3101},"get_guilds",{"micros":3577},"send_scheduled_deleteion_message",{"micros":28},"guild_join_requests",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":35136,"calls":[]}]}]}] (Session ID: 3ab96b8701907caaf5dfa5e0fea96b13).
+2022-08-10 15:28:15,513 [INFO]: logged in vidar#7490
+2022-08-10 15:30:06,182 [INFO]: 2gis has used "user" command.
+2022-08-10 15:31:46,755 [INFO]: logging in using static token
+2022-08-10 15:31:47,514 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-10 15:31:47,856 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-4n4j",{"micros":146381,"calls":["discord-sessions-green-prd-2-105",{"micros":145522,"calls":["start_session",{"micros":90339,"calls":["discord-api-7dd57df7cf-8f58z",{"micros":83895,"calls":["get_user",{"micros":18321},"add_authorized_ip",{"micros":12327},"get_guilds",{"micros":2831},"send_scheduled_deleteion_message",{"micros":8},"guild_join_requests",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":49848,"calls":[]}]}]}] (Session ID: a163a4f7b7d0019474be0b1ceac01d83).
+2022-08-10 15:31:49,863 [INFO]: logged in vidar#7490
+2022-08-11 11:18:08,001 [INFO]: logging in using static token
+2022-08-11 11:18:09,437 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:18:09,962 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-400v",{"micros":331375,"calls":["discord-sessions-blue-prd-2-66",{"micros":330449,"calls":["start_session",{"micros":301992,"calls":["discord-api-8694fcb5b6-h5mmg",{"micros":282325,"calls":["get_user",{"micros":91649},"add_authorized_ip",{"micros":21251},"get_guilds",{"micros":33726},"send_scheduled_deleteion_message",{"micros":9},"guild_join_requests",{"micros":1}]}]},"starting_guild_connect",{"micros":26,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22508,"calls":[]},"connect_finished",{"micros":28396,"calls":[]},"build_ready",{"micros":8,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":23,"calls":[]}]}]}] (Session ID: 700c71202d049799a3b01121f79f2088).
+2022-08-11 11:18:11,991 [INFO]: logged in vidar#7490
+2022-08-11 11:18:32,618 [INFO]: Cleaning up tasks.
+2022-08-11 11:18:32,619 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 11:18:32,812 [INFO]: All tasks finished cancelling.
+2022-08-11 11:18:32,813 [INFO]: Closing the event loop.
+2022-08-11 11:18:32,847 [ERROR]: Task exception was never retrieved
+future: <Task finished name='nextcord: on_message' coro=<Client._run_event() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py:437> exception=SystemExit(0)>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 121, in on_message
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 171, in remote
+SystemExit: 0
+2022-08-11 11:19:54,943 [INFO]: logging in using static token
+2022-08-11 11:19:55,861 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:19:56,141 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-wpfv",{"micros":86857,"calls":["discord-sessions-blue-prd-2-84",{"micros":85766,"calls":["start_session",{"micros":79948,"calls":["discord-api-8694fcb5b6-v9bvl",{"micros":75328,"calls":["get_user",{"micros":13584},"add_authorized_ip",{"micros":5928},"get_guilds",{"micros":6023},"send_scheduled_deleteion_message",{"micros":9},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":36,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":5725,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":48,"calls":[]}]}]}] (Session ID: cdee934af983f0ac2a7374ead7d72b5d).
+2022-08-11 11:19:58,152 [INFO]: logged in vidar#7490
+2022-08-11 11:20:08,155 [INFO]: Cleaning up tasks.
+2022-08-11 11:20:08,155 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 11:20:08,353 [INFO]: All tasks finished cancelling.
+2022-08-11 11:20:08,353 [INFO]: Closing the event loop.
+2022-08-11 11:20:08,391 [ERROR]: Task exception was never retrieved
+future: <Task finished name='nextcord: on_message' coro=<Client._run_event() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py:437> exception=SystemExit(None)>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 121, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 166, in remote
+    exit()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+2022-08-11 11:40:51,584 [INFO]: logging in using static token
+2022-08-11 11:40:52,554 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:40:52,833 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-rg5s",{"micros":80845,"calls":["discord-sessions-blue-prd-2-2",{"micros":78776,"calls":["start_session",{"micros":48040,"calls":["discord-api-8694fcb5b6-6pntw",{"micros":42313,"calls":["get_user",{"micros":14193},"add_authorized_ip",{"micros":1767},"get_guilds",{"micros":1623},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":34,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":9927,"calls":[]},"connect_finished",{"micros":30669,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 2bf32b1ed8c737acbb6eca9aa82ee6ed).
+2022-08-11 11:40:54,884 [INFO]: logged in vidar#7490
+2022-08-11 11:41:40,945 [INFO]: Cleaning up tasks.
+2022-08-11 11:41:40,945 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 11:41:41,140 [INFO]: All tasks finished cancelling.
+2022-08-11 11:41:41,141 [INFO]: Closing the event loop.
+2022-08-11 11:41:41,168 [ERROR]: Task exception was never retrieved
+future: <Task finished name='nextcord: on_message' coro=<Client._run_event() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py:437> exception=SystemExit(0)>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 122, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 172, in remote
+    sys.exit(0)
+SystemExit: 0
+2022-08-11 11:47:19,909 [INFO]: logging in using static token
+2022-08-11 11:47:20,738 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:47:21,064 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-hjnz",{"micros":123109,"calls":["discord-sessions-blue-prd-2-183",{"micros":122381,"calls":["start_session",{"micros":77247,"calls":["discord-api-8694fcb5b6-nbmxk",{"micros":69558,"calls":["get_user",{"micros":26509},"add_authorized_ip",{"micros":5889},"get_guilds",{"micros":3188},"send_scheduled_deleteion_message",{"micros":10},"guild_join_requests",{"micros":1}]}]},"starting_guild_connect",{"micros":27,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":45054,"calls":[]},"build_ready",{"micros":4,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":46,"calls":[]}]}]}] (Session ID: 5eca66280ddf02b48b02f563b576a29d).
+2022-08-11 11:47:23,070 [INFO]: logged in vidar#7490
+2022-08-11 11:47:43,901 [INFO]: logging in using static token
+2022-08-11 11:47:44,629 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:47:44,964 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-xk0s",{"micros":136711,"calls":["discord-sessions-blue-prd-2-145",{"micros":135771,"calls":["start_session",{"micros":77155,"calls":["discord-api-8694fcb5b6-8nnjz",{"micros":62116,"calls":["get_user",{"micros":19449},"add_authorized_ip",{"micros":4472},"get_guilds",{"micros":1809},"send_scheduled_deleteion_message",{"micros":37},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":27,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":58557,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":23,"calls":[]}]}]}] (Session ID: c6178711405f67ee448f3ca935b4be7d).
+2022-08-11 11:47:47,000 [INFO]: logged in vidar#7490
+2022-08-11 11:48:12,018 [WARNING]: Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 175, in <module>
+    bot.run(token)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 123, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 170, in remote
+    os.system(f"python {__file__} {code} &")
+
+2022-08-11 11:51:41,417 [INFO]: logging in using static token
+2022-08-11 11:51:42,331 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:51:42,620 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-b5kz",{"micros":86651,"calls":["discord-sessions-blue-prd-2-10",{"micros":85826,"calls":["start_session",{"micros":59015,"calls":["discord-api-8694fcb5b6-hb8d8",{"micros":42049,"calls":["get_user",{"micros":8885},"add_authorized_ip",{"micros":5529},"get_guilds",{"micros":2634},"send_scheduled_deleteion_message",{"micros":8},"guild_join_requests",{"micros":1}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":14529,"calls":[]},"connect_finished",{"micros":26723,"calls":[]},"build_ready",{"micros":5,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 3d51979d8c0bf624875cb06b7fec61ed).
+2022-08-11 11:51:44,641 [INFO]: logged in vidar#7490
+2022-08-11 11:51:57,198 [INFO]: logging in using static token
+2022-08-11 11:51:58,051 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:51:58,341 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-q83q",{"micros":94806,"calls":["discord-sessions-blue-prd-2-194",{"micros":93891,"calls":["start_session",{"micros":68122,"calls":["discord-api-8694fcb5b6-wdwn4",{"micros":64100,"calls":["get_user",{"micros":19159},"add_authorized_ip",{"micros":6343},"get_guilds",{"micros":5695},"send_scheduled_deleteion_message",{"micros":14},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":38,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":24898,"calls":[]},"connect_finished",{"micros":25697,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":24,"calls":[]}]}]}] (Session ID: 57464f7509168f8c83ad658e52b12e92).
+2022-08-11 11:52:00,365 [INFO]: logged in vidar#7490
+2022-08-11 11:55:30,828 [INFO]: logging in using static token
+2022-08-11 11:55:31,693 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:55:31,931 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-7px8",{"micros":42197,"calls":["discord-sessions-blue-prd-2-167",{"micros":41201,"calls":["start_session",{"micros":39645,"calls":["discord-api-8694fcb5b6-nf2vc",{"micros":35250,"calls":["get_user",{"micros":8777},"add_authorized_ip",{"micros":2023},"get_guilds",{"micros":2877},"send_scheduled_deleteion_message",{"micros":17},"guild_join_requests",{"micros":1}]}]},"starting_guild_connect",{"micros":33,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":1494,"calls":[]},"build_ready",{"micros":4,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":21,"calls":[]}]}]}] (Session ID: 1a33da8f81900ea6fe98592da3aa75f4).
+2022-08-11 11:55:33,963 [INFO]: logged in vidar#7490
+2022-08-11 11:55:36,078 [INFO]: Cleaning up tasks.
+2022-08-11 11:55:36,079 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 11:55:36,275 [INFO]: All tasks finished cancelling.
+2022-08-11 11:55:36,276 [INFO]: Closing the event loop.
+2022-08-11 11:55:42,086 [INFO]: logging in using static token
+2022-08-11 11:55:43,337 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 11:55:43,642 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-h49b",{"micros":108286,"calls":["discord-sessions-blue-prd-2-68",{"micros":107531,"calls":["start_session",{"micros":68803,"calls":["discord-api-8694fcb5b6-msvvf",{"micros":62592,"calls":["get_user",{"micros":16440},"add_authorized_ip",{"micros":6202},"get_guilds",{"micros":3235},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":30,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":38666,"calls":[]},"build_ready",{"micros":5,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":24,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 8aa155e35747ea9023c7066f67d3cf9d).
+2022-08-11 11:55:45,647 [INFO]: logged in vidar#7490
+2022-08-11 14:43:42,086 [INFO]: logging in using static token
+2022-08-11 14:43:42,897 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 14:43:43,254 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-kv58",{"micros":129178,"calls":["discord-sessions-blue-prd-2-25",{"micros":126616,"calls":["start_session",{"micros":93560,"calls":["discord-api-8dff8c4d-cr278",{"micros":83285,"calls":["get_user",{"micros":9469},"add_authorized_ip",{"micros":8674},"get_guilds",{"micros":2165},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":3}]}]},"starting_guild_connect",{"micros":43,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":32198,"calls":[]},"connect_finished",{"micros":32985,"calls":[]},"build_ready",{"micros":4,"calls":[]},"optimize_ready",{"micros":21,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: c6d5eef68f838e9e269a6550f1b2b72d).
+2022-08-11 14:43:45,260 [INFO]: logged in vidar#7490
+2022-08-11 14:44:01,358 [INFO]: Cleaning up tasks.
+2022-08-11 14:44:01,358 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 14:44:01,553 [INFO]: All tasks finished cancelling.
+2022-08-11 14:44:01,554 [INFO]: Closing the event loop.
+2022-08-11 14:44:01,608 [ERROR]: Task exception was never retrieved
+future: <Task finished name='nextcord: on_message' coro=<Client._run_event() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py:437> exception=SystemExit(0)>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 124, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 173, in remote
+    sys.exit(0)
+SystemExit: 0
+2022-08-11 14:44:07,051 [INFO]: logging in using static token
+2022-08-11 14:44:07,832 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 14:44:08,123 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-rcxm",{"micros":60732,"calls":["discord-sessions-blue-prd-2-176",{"micros":59755,"calls":["start_session",{"micros":41051,"calls":["discord-api-8dff8c4d-xj5ql",{"micros":34366,"calls":["get_user",{"micros":8847},"add_authorized_ip",{"micros":2487},"get_guilds",{"micros":1447},"send_scheduled_deleteion_message",{"micros":11},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":28,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]},"connect_finished",{"micros":18645,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":22,"calls":[]}]}]}] (Session ID: 3b81b7174ba8afc7c11aa0e329d8dc4d).
+2022-08-11 14:44:10,150 [INFO]: logged in vidar#7490
+2022-08-11 14:44:32,063 [INFO]: Cleaning up tasks.
+2022-08-11 14:44:32,063 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 14:44:32,256 [INFO]: All tasks finished cancelling.
+2022-08-11 14:44:32,257 [INFO]: Closing the event loop.
+2022-08-11 14:44:32,286 [ERROR]: Task exception was never retrieved
+future: <Task finished name='nextcord: on_message' coro=<Client._run_event() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py:437> exception=SystemExit(0)>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\sub.py", line 124, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\sub.py", line 173, in remote
+    sys.exit(0)
+SystemExit: 0
+2022-08-11 14:44:35,489 [INFO]: logging in using static token
+2022-08-11 14:44:36,196 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 14:44:36,504 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-bpfc",{"micros":113082,"calls":["discord-sessions-blue-prd-2-70",{"micros":111705,"calls":["start_session",{"micros":65530,"calls":["discord-api-8dff8c4d-n5sq2",{"micros":61511,"calls":["get_user",{"micros":15423},"add_authorized_ip",{"micros":2015},"get_guilds",{"micros":1427},"send_scheduled_deleteion_message",{"micros":14},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":26,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":46123,"calls":[]},"build_ready",{"micros":4,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":20,"calls":[]}]}]}] (Session ID: 5f50eb66e9ec53b37052333e246df504).
+2022-08-11 14:44:38,507 [INFO]: logged in vidar#7490
+2022-08-11 14:45:35,033 [INFO]: logging in using static token
+2022-08-11 14:45:35,800 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 14:45:36,049 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-t828",{"micros":54406,"calls":["discord-sessions-blue-prd-2-200",{"micros":53493,"calls":["start_session",{"micros":46675,"calls":["discord-api-8dff8c4d-ffns6",{"micros":41116,"calls":["get_user",{"micros":11058},"add_authorized_ip",{"micros":3674},"get_guilds",{"micros":2203},"send_scheduled_deleteion_message",{"micros":16},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"guilds_connect",{"micros":4,"calls":[]},"presence_connect",{"micros":5907,"calls":[]},"connect_finished",{"micros":6730,"calls":[]},"build_ready",{"micros":4,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":21,"calls":[]}]}]}] (Session ID: 4e29f2f19d8e0fd986db8e193ac7dbf3).
+2022-08-11 14:45:38,068 [INFO]: logged in vidar#7490
+2022-08-11 14:46:20,981 [INFO]: logging in using static token
+2022-08-11 14:46:21,681 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 14:46:21,984 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-2vsv",{"micros":106525,"calls":["discord-sessions-blue-prd-2-84",{"micros":105740,"calls":["start_session",{"micros":47702,"calls":["discord-api-8dff8c4d-wrc4s",{"micros":34390,"calls":["get_user",{"micros":8029},"add_authorized_ip",{"micros":2151},"get_guilds",{"micros":1733},"send_scheduled_deleteion_message",{"micros":12},"guild_join_requests",{"micros":559}]}]},"starting_guild_connect",{"micros":23,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":57196,"calls":[]},"connect_finished",{"micros":57989,"calls":[]},"build_ready",{"micros":5,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":17,"calls":[]}]}]}] (Session ID: 96194e08f909b645e90e36e797286d17).
+2022-08-11 14:46:23,997 [INFO]: logged in vidar#7490
+2022-08-11 14:46:28,372 [INFO]: Cleaning up tasks.
+2022-08-11 14:46:28,373 [INFO]: Cleaning up after 1 tasks.
+2022-08-11 14:46:28,568 [INFO]: All tasks finished cancelling.
+2022-08-11 14:46:28,569 [INFO]: Closing the event loop.
+2022-08-11 14:46:28,594 [ERROR]: Task exception was never retrieved
+future: <Task finished name='nextcord: on_message' coro=<Client._run_event() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py:437> exception=SystemExit(0)>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 796, in run
+    loop.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\client.py", line 445, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 124, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1150, in process_commands
+    await self.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\bot.py", line 1113, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 948, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\nextcord\ext\commands\core.py", line 165, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\WhenIMoveCom\py\bot\bot.py", line 173, in remote
+    sys.exit(0)
+SystemExit: 0
+2022-08-11 14:46:32,739 [INFO]: logging in using static token
+2022-08-11 14:46:33,443 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2022-08-11 14:46:33,740 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-main-69bd",{"micros":100537,"calls":["discord-sessions-blue-prd-2-193",{"micros":89833,"calls":["start_session",{"micros":44542,"calls":["discord-api-8dff8c4d-zxdr5",{"micros":40076,"calls":["get_user",{"micros":11524},"add_authorized_ip",{"micros":2217},"get_guilds",{"micros":4033},"send_scheduled_deleteion_message",{"micros":15},"guild_join_requests",{"micros":2}]}]},"starting_guild_connect",{"micros":27,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19641,"calls":[]},"connect_finished",{"micros":45226,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":28,"calls":[]}]}]}] (Session ID: 02b6723f8171b0561616a941bf450335).
+2022-08-11 14:46:35,760 [INFO]: logged in vidar#7490
