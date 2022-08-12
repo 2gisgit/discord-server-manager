@@ -187,8 +187,8 @@ async def show(ctx, file: str):
 	f = open(file, 'r')
 	read = f.readlines()
 	if len(read) > 21:
-		read = read[len(read)-20:]
-	await ctx.send(f"```{"".join(read)}```")
+		read = read[len(read)-3:]
+	await ctx.send(f"```{''.join(read)}```")
 	f.close()
 
 
@@ -201,7 +201,7 @@ async def mkfile(ctx, filename: str):
 @bot.command(name="ls")
 @commands.has_permissions(administrator=True)
 async def ls(ctx):
-	ctx.send('\n'.join(os.listdir("./")))
+	await ctx.send("```"+'\n'.join(os.listdir("./"))+"```")
 
 
 bot.run(token)
